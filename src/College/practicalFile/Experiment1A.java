@@ -28,4 +28,3 @@ public class Experiment1A {
         System.out.println();
     }
 }
-

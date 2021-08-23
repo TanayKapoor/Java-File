@@ -1,5 +1,7 @@
 package College.assignment;
 
+import College.printBox;
+
 class One {
     public void print_one() {
         System.out.println("Class one");
@@ -26,6 +28,7 @@ class Four extends Three {
 
 public class HierarchicalInheritance {
     public static void main(String[] args) {
+        printBox.printBox("Tanay 1955991593");
         Two obj_two = new Two();
         obj_two.print_one();
         obj_two.print_two();

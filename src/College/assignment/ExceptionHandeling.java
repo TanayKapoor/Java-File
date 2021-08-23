@@ -1,5 +1,7 @@
 package College.assignment;
 
+import College.printBox;
+
 import java.util.Scanner;
 
 class UpperLimitCheck extends Exception {
@@ -39,6 +41,7 @@ public class ExceptionHandeling {
     }
 
     public static void main(String[] args) {
+        printBox.printBox("Tanay", "1955991593");
         int a, b, c, id1, id2;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
